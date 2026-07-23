@@ -1,0 +1,180 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://bhg6lwpllrcd4"
+path="res://.godot/imported/swamp.glb-b5c18e1835d7b085349ad5ad7513fb45.scn"
+
+[deps]
+
+source_file="res://meshes/swamp.glb"
+dest_files=["res://.godot/imported/swamp.glb-b5c18e1835d7b085349ad5ad7513fb45.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:group1003487641": {
+"generate/physics": true
+},
+"PATH:group1004619122": {
+"generate/physics": true
+},
+"PATH:group1050242619": {
+"generate/physics": true
+},
+"PATH:group1052670248": {
+"generate/physics": true
+},
+"PATH:group110025996": {
+"generate/physics": true
+},
+"PATH:group1174504232": {
+"generate/physics": true
+},
+"PATH:group1242887192": {
+"generate/physics": true
+},
+"PATH:group1297782163": {
+"generate/physics": true
+},
+"PATH:group1309998384": {
+"generate/physics": true
+},
+"PATH:group1327080236": {
+"generate/physics": true
+},
+"PATH:group1358386406": {
+"generate/physics": true
+},
+"PATH:group1420377134": {
+"generate/physics": true
+},
+"PATH:group1458085261": {
+"generate/physics": true
+},
+"PATH:group1461848927": {
+"generate/physics": true
+},
+"PATH:group1472950353": {
+"generate/physics": true
+},
+"PATH:group1491434214": {
+"generate/physics": true
+},
+"PATH:group151683662": {
+"generate/physics": true
+},
+"PATH:group158387430": {
+"generate/physics": true
+},
+"PATH:group1619217945": {
+"generate/physics": true
+},
+"PATH:group176447540": {
+"generate/physics": true
+},
+"PATH:group1774111551": {
+"generate/physics": true
+},
+"PATH:group1776715167": {
+"generate/physics": true
+},
+"PATH:group1832030168": {
+"generate/physics": true
+},
+"PATH:group1861072529": {
+"generate/physics": true
+},
+"PATH:group1996960513": {
+"generate/physics": true
+},
+"PATH:group2025685484": {
+"generate/physics": true
+},
+"PATH:group2054480839": {
+"generate/physics": true
+},
+"PATH:group2099061238": {
+"generate/physics": true
+},
+"PATH:group2127888576": {
+"generate/physics": true
+},
+"PATH:group2136008734": {
+"generate/physics": true
+},
+"PATH:group221385188": {
+"generate/physics": true
+},
+"PATH:group530821200": {
+"generate/physics": true
+},
+"PATH:group588255218": {
+"generate/physics": true
+},
+"PATH:group603141852": {
+"generate/physics": true
+},
+"PATH:group684750817": {
+"import/skip_import": true
+},
+"PATH:group760265186": {
+"generate/physics": true
+},
+"PATH:group761897651": {
+"generate/physics": true
+},
+"PATH:group79247777": {
+"generate/physics": true
+},
+"PATH:group829808155": {
+"generate/physics": true
+},
+"PATH:group847447240": {
+"generate/physics": true
+},
+"PATH:group853010250": {
+"generate/physics": true
+},
+"PATH:group880033640": {
+"generate/physics": true
+},
+"PATH:group912524470": {
+"generate/physics": true
+},
+"PATH:group914355225": {
+"generate/physics": true
+},
+"PATH:group960311259": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
