@@ -3,7 +3,7 @@ extends SpringArm3D
 @onready var camera: Camera3D = $Camera3D
 @onready var player: CharacterBody3D = self.get_parent()
 var mouse_input: Vector2 = Vector2()
-var mouse_sensitivity := 0.5
+var mouse_sensitivity := 0.25
 var camera_offset: float = self.position.y
 
 # Called when the node enters the scene tree for the first time.
