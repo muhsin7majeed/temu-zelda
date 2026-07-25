@@ -9,6 +9,10 @@ const TURN_SPEED = 0.25
 @onready var player_animation_tree: AnimationTree = $AnimationTree
 
 func _physics_process(delta: float) -> void:
+	# Add the gravity.
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+
 	# Get input vector
 	var input_dir := Input.get_vector("move_left", "move_right", "move_forward", "move_backward")
 	
@@ -32,8 +36,10 @@ func _physics_process(delta: float) -> void:
 	
 	var current_speed = velocity.length()
 	
+	if not is_on_floor():
+		player_animation_tree.set("parameters/movement/transition_request", "jump")
 	# Anything above 3, consider it as run!
-	if current_speed > 3.0:
+	elif current_speed > 3.0:
 		player_animation_tree.set("parameters/movement/transition_request", "run")
 	elif current_speed > 0.0:
 		player_animation_tree.set("parameters/movement/transition_request", "walk")
@@ -43,18 +49,6 @@ func _physics_process(delta: float) -> void:
 	else:
 		player_animation_tree.set("parameters/movement/transition_request", "idle")
 		
-	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-		
-		if velocity.y != 0:
-			print("ABOUT TO JUMP")
-			player_animation_tree.set("parameters/movement/transition_request", "jump")
-
-		# Fix the landing animation
-		#elif velocity.y < -4.5:
-			#print("ABOUT TO LAND")
-			#player_animation_tree.set("parameters/movement/transition_request", "jump_land")
 		
 	# Handle jump.
 	if Input.is_action_just_pressed("jump") and is_on_floor():
